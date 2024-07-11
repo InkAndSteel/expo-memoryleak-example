@@ -13,7 +13,7 @@ function TabBarIcon(props: {
 export default function TabLayout() {
   return (
     <Tabs
-      initialRouteName="three"
+      initialRouteName="index"
       screenOptions={{
         tabBarActiveTintColor: Colors.light.tint,
         headerShown: true,
@@ -21,20 +21,6 @@ export default function TabLayout() {
     >
       <Tabs.Screen
         name="index"
-        options={{
-          title: "Tab One",
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
-        }}
-      />
-      <Tabs.Screen
-        name="two"
-        options={{
-          title: "Tab Two",
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
-        }}
-      />
-      <Tabs.Screen
-        name="three"
         options={{
           title: "Large Data",
           tabBarIcon: ({ color }) => (

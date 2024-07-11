@@ -13,7 +13,6 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "expo-router": "~3.5.17",
     "@config-plugins/react-native-dynamic-app-icon": "^7.0.0",
     "@digitalartlab/expo-plugin-localization": "^2.0.0",
     "@expo/config-plugins": "~8.0.0",
@@ -41,7 +40,7 @@
     "expo-camera": "~15.0.12",
     "expo-constants": "~16.0.2",
     "expo-crypto": "~13.0.2",
-    "expo-dev-client": "~4.0.19",
+    "expo-dev-client": "~4.0.20",
     "expo-device": "~6.0.2",
     "expo-file-system": "~17.0.1",
     "expo-image-manipulator": "~12.0.5",
@@ -52,6 +51,7 @@
     "expo-media-library": "~16.0.4",
     "expo-notifications": "~0.28.9",
     "expo-random": "~14.0.1",
+    "expo-router": "~3.5.17",
     "expo-screen-orientation": "~7.0.5",
     "expo-secure-store": "~13.0.2",
     "expo-sharing": "~12.0.1",
